@@ -3,8 +3,6 @@
 import { useState } from "react";
 import Image from "next/image";
 import { SearchInput } from "@/components/search-input";
-import { SearchSection } from "@/components/search-section";
-import { searchSections } from "@/data/search-sections";
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState<string>("all");
@@ -26,7 +24,9 @@ export default function Home() {
       <main className="max-w-3xl mx-auto px-4 pt-20">
         <div className="text-center space-y-4 mb-12">
           <h2 className="text-lg text-gray-400">Welcome to the DeoAI</h2>
-          <h1 className="text-4xl font-bold">Unlock your DeoAI expertise.</h1>
+          <h1 className="text-3xl font-bold">
+            Unlock The full Potential of ENS
+          </h1>
         </div>
 
         <div className="space-y-4">
@@ -34,16 +34,6 @@ export default function Home() {
             onSearch={handleSearch}
             onSectionChange={handleSectionChange}
           />
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {searchSections.map((section) => (
-              <SearchSection
-                key={section.id}
-                section={section}
-                onClick={() => handleSectionChange(section.id)}
-              />
-            ))}
-          </div>
         </div>
       </main>
     </div>
