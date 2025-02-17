@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "DeoAI Interface",
-  description: "Unlock your DeoAI expertise",
+  description: "Unlock The Full Potential of ENS",
 };
 
 export default function RootLayout({

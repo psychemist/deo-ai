@@ -24,7 +24,9 @@ export default function Home() {
       <main className="max-w-3xl mx-auto px-4 pt-20">
         <div className="text-center space-y-4 mb-12">
           <h2 className="text-lg text-gray-400">Welcome to the DeoAI</h2>
-          <h1 className="text-4xl font-bold">Unlock your DeoAI expertise.</h1>
+          <h1 className="text-3xl font-bold">
+            Unlock The full Potential of ENS
+          </h1>
         </div>
 
         <div className="space-y-4">
