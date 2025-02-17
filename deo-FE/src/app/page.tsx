@@ -3,8 +3,6 @@
 import { useState } from "react";
 import Image from "next/image";
 import { SearchInput } from "@/components/search-input";
-import { SearchSection } from "@/components/search-section";
-import { searchSections } from "@/data/search-sections";
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState<string>("all");
@@ -34,16 +32,6 @@ export default function Home() {
             onSearch={handleSearch}
             onSectionChange={handleSectionChange}
           />
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {searchSections.map((section) => (
-              <SearchSection
-                key={section.id}
-                section={section}
-                onClick={() => handleSectionChange(section.id)}
-              />
-            ))}
-          </div>
         </div>
       </main>
     </div>
