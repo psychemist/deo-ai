@@ -1,10 +1,10 @@
 # DEOAI - Your AI-Powered ENS Development Assistant
 
-DEOAI is an AI-powered assistant designed to help developers build on the Ethereum Name Service (ENS) by providing real-time debugging support, ENS documentation insights, and smart contract development guidance. It is trained on ENS documentation, Solidity best practices, and common debugging scenarios to streamline development.
+DEOAI is an AI-powered assistant designed to help developers build on Ethereum and the Ethereum Name Service (ENS) by providing real-time debugging support, ENS documentation insights, and smart contract development guidance. It is trained on Ethereum historical data, Solidity references, ENS documentation, development best practices, and common debugging scenarios to streamline development.
 
 ## 🚀 Features
-- **AI-Powered ENS Assistance** – Get instant answers on ENS concepts, deployment, and troubleshooting.
 - **Smart Contract Debugging** – Identify and resolve issues related to ENS-based Solidity contracts.
+- **AI-Powered ENS Assistance** – Get instant answers on ENS concepts, deployment, and troubleshooting.
 - **Retrieval-Augmented Generation (RAG)** – DEOAI fetches the most relevant ENS documentation before responding.
 - **Integration with Developer Tools** – Use DEOAI in CLI, VS Code, or as a Telegram/Discord bot.
 - **Open Source & Community Driven** – Contributions are welcome!
